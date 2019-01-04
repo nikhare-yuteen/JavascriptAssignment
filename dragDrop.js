@@ -149,4 +149,5 @@ var data = [
       // node.removeChild(node.childNodes[1]);
       // console.log();
       list.innerHTML = list.innerHTML + "<div class='inner' draggable='true' ondragstart='drag(event)' id="+data[child].id+">"+ data[child].first_name +" "+data[child].last_name +"</div>";;
+      node.removeAttribute('style');
     }
